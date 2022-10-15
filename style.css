@@ -1,0 +1,22 @@
+div {text-align: right;margin-right:10px}
+
+a{padding:10px}
+.cajera{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow:#fff;
+    border-radius: 24px;
+    margin: 0px auto;
+    margin-top: 300px;
+    width: 584px;
+    padding-left: 15px;
+}
+form{text-align: center}
+.boton{margin: 10px auto;
+height:36px;
+width:333px;
+border-radius: 10px;
+border: 1px solid #f7f8fa;}
