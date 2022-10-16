@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div>
-            <a href="advanced.html"> Advanced search</a>
-            <a href="image.html"> Image search</a>
+            <a href="index.html"> Google search</a>
         </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input class="cajera" type="text" name="q">
+            <input type="hidden" id="custId" name="tbm" value="isch">
+            <input class="boton" type="submit" value="Google Image Search">
         </form>
     </body>
 </html>
